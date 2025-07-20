@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Eagle - Home</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+</head>
+<body>
+
+  <header>
+    <h1>🦅 Eagle</h1>
+    <nav>
+      <a href="#home">Home</a> |
+      <a href="#about">About</a> |
+      <a href="#services">Services</a> |
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Welcome to Eagle</h2>
+    <p>Your trusted partner in digital innovation.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Eagle is a forward-thinking company that offers technology and design solutions to help your business grow.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Web Design</li>
+      <li>App Development</li>
+      <li>Digital Marketing</li>
+      <li>Consulting</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: contact@eagle.com</p>
+    <p>Phone: +123-456-7890</p>
+  </section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <form id="contactForm">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" /><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" /><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="5"></textarea><br><br>
+
+    <button type="submit">Send Message</button>
+    <p id="formMsg" style="margin-top: 10px;"></p>
+    <div class="g-recaptcha" data-sitekey="6LecS4krAAAAAOE1pySNrsBnexDimfMJpwYyJFgz"></div>
+
+  </form>
+</section>
+
+  <footer>
+    <p>&copy; 2025 Eagle. All rights reserved.</p>
+  </footer>
+<script src="script.js"></script>
+<button id="scrollToTop" style="
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background: #004080;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+  z-index: 1000;">↑</button>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+</body>
+</html>
